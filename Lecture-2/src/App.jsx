@@ -1,5 +1,12 @@
 import React from "react";
-import Background from "./components/Background";
+import CaseStudies from "./components/CaseStudies";
+// import Ourprocess from "./components/Ourprocess";
+
+// import Laptop from "./components/Laptop";
+// import Parents from "./components/Parents";
+// import AutomatedTsak from "./components/AutomatedTsak";
+// import Background from "./components/Background";
+// import Child from "./components/Child";
 // import Footer from "./components/Footer";
 // import Ourservice from "./components/Ourservice";
 // import Positions from "./components/Positions";
@@ -10,6 +17,7 @@ import Background from "./components/Background";
 // import Header from "./components/Header";
 // import Herosection from "./components/Herosection";
 // import Home from "./components/Home";
+
 function App() {
   return (
     // <div className=" bg-black h-screen  p-22  ">
@@ -18,8 +26,9 @@ function App() {
     //   <Herosection />
     // </div>
     <>
-      <Background />
+      {/* <Background /> */}
       {/* <Ourservice /> */}
+      {/* <AutomatedTsak /> */}
       {/* // <Header /> */}
       {/* <Sizelearning /> */}
       {/* <Height /> */}
@@ -27,6 +36,11 @@ function App() {
       {/* <Positions /> */}
       {/* <Containers /> */}
       {/* <Footer /> */}
+      {/* <Child /> */}
+      {/* <Parents /> */}
+      {/* <Ourprocess /> */}
+      <CaseStudies />
+      {/* <Laptop /> */}
     </>
   );
 }
