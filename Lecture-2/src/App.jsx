@@ -1,5 +1,10 @@
 import React from "react";
-import CaseStudies from "./components/CaseStudies";
+import First from "./components/First";
+
+// import Mobile from "./components/Mobile";
+// import Gradient from "./components/Gradient";
+
+// import CaseStudies from "./components/CaseStudies";
 // import Ourprocess from "./components/Ourprocess";
 
 // import Laptop from "./components/Laptop";
@@ -17,15 +22,19 @@ import CaseStudies from "./components/CaseStudies";
 // import Header from "./components/Header";
 // import Herosection from "./components/Herosection";
 // import Home from "./components/Home";
-
-function App() {
+export function App() {
   return (
-    // <div className=" bg-black h-screen  p-22  ">
-
-    //   <h1 className=" border  p-0.5 bg-red-800 lg:hidden "></h1>
-    //   <Herosection />
-    // </div>
     <>
+      <div className=" text-white h-screen  text-3xl text-center bg-black">
+        App components
+        <First />
+      </div>
+      {/* //{" "}
+      <div className=" bg-black h-screen  p-22  ">
+        // <h1 className=" border  p-0.5 bg-red-800 lg:hidden "></h1>
+        // <Herosection />
+        //{" "}
+      </div> */}
       {/* <Background /> */}
       {/* <Ourservice /> */}
       {/* <AutomatedTsak /> */}
@@ -39,8 +48,10 @@ function App() {
       {/* <Child /> */}
       {/* <Parents /> */}
       {/* <Ourprocess /> */}
-      <CaseStudies />
+      {/* <CaseStudies /> */}
       {/* <Laptop /> */}
+      {/* <Mobile/> */}
+      {/* <Gradient /> */}
     </>
   );
 }

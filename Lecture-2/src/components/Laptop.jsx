@@ -1,14 +1,11 @@
-import React, { useState } from "react";
+import React from "react";
 import Mobile from "./Mobile";
 const Laptop = () => {
-  const [About, setAbout] = useState(<h1>afroz</h1>);
   return (
     <>
-      <div>Laptop</div>;
-      <div>
-        <Mobile about={About} setAbout={setAbout} />
-      </div>
-      <h1>{About}</h1>
+      <div className=" text-4xl"> Laptop</div>
+      {/* <div>{<Mobile />}</div> */}
+      <Mobile />
     </>
   );
 };
